@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 80px auto;
+    height: 1000px;
+}
+
+.chart {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chart canvas{
+    height: 400px;
+    margin: 0 auto;
+}
+
+#startedButton {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 70px;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 2px 2px 7px black;
+    background: #7acef4;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.text {
+    margin-top: 50px;
+}
+
+.table {
+    display: block;
+    width: 700px;
+    margin: 0 auto;
+    background-color: rgb(249, 255, 255);
+}
+
+.blue {
+    background-color: rgb(102, 140, 200);
+}
+
+table {
+    margin: 0 auto;
+}
+
+table td, table th {
+    border: 1px solid black;
+}
+
+table thead tr {
+    display: grid;
+    grid-template-columns: 50px 70px 95px 50px minmax(220px, auto) 120px;
+    grid-template-rows: 50px;
+    column-gap: 2px;
+    align-items: center;
+    /* height: 50px; */
+    background: rgb(106, 63, 11);
+    color: #fff;
+    font-size: 20px;
+    line-height: 48px;
+}
+
+table th, table td {
+    min-width: 50px;
+    padding: 0 7px;
+    height: 100%;
+    text-align: center;
+}
+
+table tbody {
+    height: 400px;
+}
+
+table tbody tr{
+    display: grid;
+    margin: 1px 0;
+    grid-template-columns: 50px 70px 95px 50px minmax(220px, auto) 120px;
+    grid-template-rows: 40px;
+    column-gap: 2px;
+    align-items: center;
+    background-color: rgb(226, 227, 207);
+    line-height: 38px;
+}
